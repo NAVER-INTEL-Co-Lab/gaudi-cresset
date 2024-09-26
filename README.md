@@ -56,13 +56,7 @@ Use the `pip.uninstalls.txt` file to remove system `pip` packages if
 custom versions of those packages are required.
 
 
-## Frequently Asked Questions
-
-### VSCode
-Both the VSCode CLI and VSCode Server are installed in the image.
-Use these to connect to VSCode on your local environment.
-
-### Using Cresset in an Existing Project
+## Using Cresset in an Existing Project
 
 If the user wishes to use the template as a directory inside an existing project,
 append `HOST_ROOT=..` to the `.env` file to configure the parent directory as the
