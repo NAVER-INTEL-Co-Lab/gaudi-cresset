@@ -1,4 +1,4 @@
-# The Cresset Template for PyTorch on the Intel Gaudi
+# A Research Development Template for PyTorch on the Intel Gaudi
 
 ## Introduction
 
