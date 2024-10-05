@@ -31,7 +31,7 @@ Run this command when you wish to rebuild the Docker image.
 Note that this will delete the previous container, deleting any operations performed on it.
 
 The `docker-compose.yaml` file is responsible for configuring the build and runtime environments.
-It reads the `.env` file to fetch variables and uses default values if the variables are not available in the `.env file.
+It reads the `.env` file to fetch variables and uses default values if the variables are not available in the `.env` file.
 However, editing the `.env` file to configure variables is recommended over directly editing the `docker-compose.yaml` file if possible.
 
 For example, if the Synapse AI version for the project is to be updated,
