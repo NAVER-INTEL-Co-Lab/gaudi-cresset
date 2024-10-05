@@ -43,7 +43,7 @@ SYNAPSE_VERSION=1.17.1
 ```
 
 Visit https://developer.habana.ai/catalog/pytorch-container
-for PyTorch images available for the Intel Gaudi.
+for available Intel Gaudi PyTorch images.
 
 ### Add Directories
 1. Run `make over` to add a new directory to the container.
