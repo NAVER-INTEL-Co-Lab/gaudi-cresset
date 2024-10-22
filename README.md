@@ -12,11 +12,10 @@ development environment frequently and customize many aspects.
 ## Getting Started
 ### Pre-Installation
 
-1. Press the green "Use this Template" button to create a new repository!
-2. Install the Docker engine on the host machine.
+1. Install the Docker engine on the host machine.
 [Instructions for Ubuntu hosts](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
-3. Run `make install-compose` to install Docker Compose if necessary.
-4. Install the Habana Docker Runtime on the host.
+2. Run `make install-compose` to install Docker Compose if necessary.
+3. Install the Habana Docker Runtime on the host.
 
    3-1. Visit this [link](https://docs.habana.ai/en/latest/Installation_Guide/Bare_Metal_Fresh_OS.html)
    for installation instructions.
@@ -24,10 +23,11 @@ development environment frequently and customize many aspects.
    3-2. Go to "Install Using Containers" and install according to the host platform.
 
 ### Setup
-1. Run `make env` to create a `.env` file. This need only be done once per directory.
-2. Run `make build` to build the Docker image and start the container.
+1. Press the green "Use this Template" button to create a new repository.
+2. Run `make env` to create a `.env` file. This need only be done once per directory.
+3. Run `make build` to build the Docker image and start the container.
 Run this command when you wish to rebuild the Docker image.
-3. Run `make up` if the image has already been built and you do not wish to rebuild.
+4. Run `make up` if the image has already been built and you do not wish to rebuild.
 Note that this will delete the previous container, deleting any operations performed on it.
 
 When configuring the environment, editing the `.env` file is
