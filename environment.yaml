@@ -18,5 +18,5 @@ dependencies: # Use conda packages if possible.
       - datasets
       - transformers
       - pyre-check
-      # Modify the version tag, e.g. `main`, as necessary.
-      - git+https://github.com/huggingface/optimum-habana@v1.13.2
+      # Modify the version tag (@VERSION_TAG) as necessary.
+      - git+https://github.com/huggingface/optimum-habana@main

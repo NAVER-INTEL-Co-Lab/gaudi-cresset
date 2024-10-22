@@ -96,6 +96,8 @@ services:
       - sys_nice
     environment:
       OMPI_MCA_btl_vader_single_copy_mechanism: none
+      # Maybe set this to 0 as lazy mode is so difficult to work with.
+      PT_HPU_LAZY_MODE: 1
       # Specify which HPU to use.
       HABANA_VISIBLE_DEVICES: ${HABANA_VISIBLE_DEVICES:-all}
       # Enable when using DeepSpeed.
