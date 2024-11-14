@@ -163,6 +163,9 @@ cython_debug/
 # Mac related
 .DS_Store/
 
+# Gaudi related
+hl-smi_log*.txt
+
 # Cresset specific convention.
 # The override file is meant to hold user-specific configurations
 # such as host volume paths or ports and therefore should not be shared.
