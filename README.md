@@ -23,7 +23,7 @@ development environment frequently and customize many aspects.
    3-2. Go to "Install Using Containers" and install according to the host platform.
 
 ### Setup
-1. Press the green "Use this Template" button to create a new repository.
+1. Press the green "Use this Template" button to create a new repository. Clone the newly created repository to your host.
 2. Run `make env` to create a `.env` file. This need only be done once per directory.
 3. Run `make build` to build the Docker image and start the container.
 Run this command when you wish to rebuild the Docker image.
@@ -73,9 +73,8 @@ custom versions of those packages are required.
 
 ## Using Cresset in an Existing Project
 
-If the user wishes to use the template as a directory inside an existing project,
-append `HOST_ROOT=..` to the `.env` file to configure the parent directory as the
-root of the project on the host.
+If the user wishes to use the template inside an existing project, first clone this repository directly into a folder.
+Then append `HOST_ROOT=..` to the `.env` file to configure the parent directory as the root of the project on the host.
 
 Other configurations using relative paths, such as `HOST_ROOT=../..` 
 for the parent of the parent directory, are also possible.
